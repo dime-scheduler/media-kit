@@ -7,7 +7,7 @@ const Start = () => (
         <Row className="justify-content-center">
             <Col xs={12}>
                 <div className="section-title text-center mb-8 pb-4">
-                    <div> <embed src={ds} width="500" /></div>
+                    <div> <img src={ds} alt="" className="responsive" style={{ maxWidth:"500px", paddingTop: "10px" }} /></div>
                     <img src={background} alt="Dime.Scheduler illustration" style={{ maxHeight: '350px', padding: "20px" }} />
 
                     <div style={{ paddingTop: "30px" }}>

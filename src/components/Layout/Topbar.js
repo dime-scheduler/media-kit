@@ -370,16 +370,6 @@ class Topbar extends Component {
                   )
                 )}
               </ul>
-              <div className="buy-menu-btn d-none">
-                <Link
-                  to="https://1.envato.market/dime-scheduler-media-kitreactjs"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary"
-                >
-                  Buy Now
-                </Link>
-              </div>
             </div>
           </Container>
         </header>
