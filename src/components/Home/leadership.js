@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import { Col, Container, Row } from "reactstrap";
-import { Link } from "react-router-dom";
-
-//Import Icons
 import FeatherIcon from "feather-icons-react";
-
-//import images
 import hendrik from "../../assets/images/leadership/Hendrik Bulens.jpg";
 import tom from "../../assets/images/leadership/Tom Taffin.jpg";
 

@@ -1,5 +1,4 @@
 import { Container, Row, Col } from 'reactstrap';
-import background from "../../assets/images/ds.svg";
 import ds from "../../assets/images/ds-logo.svg";
 import dsBlack from "../../assets/images/ds-logo-black.svg";
 
