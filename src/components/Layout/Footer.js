@@ -17,7 +17,10 @@ class Footer extends Component {
         { title: "Dime.Scheduler", link: "https://dimescheduler.com" },
         { title: "Docs", link: "https://docs.dimescheduler.com" }
       ],
-      grid2: [],
+      grid2: [
+        { title: "Intro", link: "https://intro.dimescheduler.com" },
+        { title: "Follow us on LinkedIn", link: "https://www.linkedin.com/company/dimenics" }
+      ],
     };
   }
 
