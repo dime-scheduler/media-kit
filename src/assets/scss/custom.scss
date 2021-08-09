@@ -87,14 +87,14 @@ a {
   bottom: 30px;
   transition: right 0.5s;
   cursor: pointer;
-  background-color: rgba(47, 85, 212, 0.2);
+  background-color: #6e62b5;
   padding: 5px;
   align-items: center;
   border-radius: 5px !important;
   outline: none;
 
   &:hover {
-    background-color: $primary !important;
+    background-color: #cfc8e7 !important;
     svg {
       stroke: $white !important;
     }
@@ -108,7 +108,7 @@ a {
     margin-top: 2px;
     margin-left: 5px;
     fill: none;
-    stroke: $primary !important;
+    stroke: white !important;
   }
 }
 

@@ -8,8 +8,8 @@ const StyleGuidelines = () => (
             <Col xs={12}>
                 <div className="section-title text-center mb-4 pb-2">
                     <h4 className="mb-4">Style guidelines</h4>
-                    <p className="para-desc mx-auto text-muted">
-                        Use the following descriptions as a guideline to write your own blurb of <span className="text-primary fw-bold">Dime.Scheduler</span>.
+                    <p className="mx-auto text-muted">
+                        Use the following brand style guidelines when you wish to include <span className="text-primary fw-bold">Dime.Scheduler</span> in your correspondence.
                     </p>
                 </div>
             </Col>
@@ -22,12 +22,10 @@ const StyleGuidelines = () => (
                         <h5 className="mb-1">
                             <p className="text-dark">Color scheme</p>
                         </h5>
-                        <p className="text-muted mb-0">
-                            <ul>
-                                <li>Primary color: #6e62b5</li>
-                                <li>Secondary color: #46276d</li>
-                            </ul>
-                        </p>
+                        <ul className="text-muted mb-0">
+                            <li>Primary color: <span style={{ color: "#6e62b5" }}>#6e62b5</span></li>
+                            <li>Secondary color: <span style={{ color: "#46276d" }}>#46276d</span></li>
+                        </ul>
                     </div>
                 </div>
             </Col>
@@ -38,12 +36,10 @@ const StyleGuidelines = () => (
                         <h5 className="mb-1">
                             <p className="text-dark">Fonts</p>
                         </h5>
-                        <p className="text-muted mb-0">
-                            <ul>
-                                <li>Default font: Segoe UI</li>
-                                <li>Logo font: <a href="https://www.dafont.com/birdman.font">Birdman Regular</a></li>
-                            </ul>
-                        </p>
+                        <ul className="text-muted mb-0">
+                            <li>Default font: Segoe UI</li>
+                            <li>Logo font: <a href="https://www.dafont.com/birdman.font" target="_blank" rel="noreferrer">Birdman Regular</a></li>
+                        </ul>
                     </div>
                 </div>
             </Col>
@@ -54,8 +50,8 @@ const StyleGuidelines = () => (
                             <p className="text-dark">Logos</p>
                         </h5>
                         <ul className="list-unstyled text-muted mb-0">
-                            <li><embed src={ds} width="200px" /></li>
-                            <li><embed src={dsBlack} width="200px" /></li>
+                            <li><img src={ds} width="200px" alt="Dime.Scheduler logo" /></li>
+                            <li><img src={dsBlack} width="200px" alt="Dime.Scheduler logo" /></li>
                         </ul>
                     </div>
                 </div>

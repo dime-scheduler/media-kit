@@ -14,14 +14,16 @@ export default class TeamMembers extends Component {
                     img: tom,
                     name: "Tom Taffin",
                     position: "Managing Partner",
-                    linkedin: "https://be.linkedin.com/in/tomtaffin"
+                    linkedin: "https://be.linkedin.com/in/tomtaffin",
+                    description: "Tom is managing partner at Dime and is the founder of Dime.Scheduler. With more than a decade of experience in the Microsoft Dynamics product suite, Tom is an authority in the field with a proven track record in building solutions for complex business environments."
                 },
                 {
                     id: 2,
                     img: hendrik,
                     name: "Hendrik Bulens",
                     position: "Managing Partner",
-                    linkedin: "https://www.linkedin.com/in/hendrikbulens"
+                    linkedin: "https://www.linkedin.com/in/hendrikbulens",
+                    description: "Hendrik is managing partner at Dime and leads the Dime.Scheduler product team. His many years of experience as a consultant and passion for business and technology have helped shape Dime.Scheduler to what it is today and where it is headed."
                 }
             ],
         };
@@ -34,6 +36,9 @@ export default class TeamMembers extends Component {
                         <Col xs={12}>
                             <div className="section-title mb-4 pb-2 text-center">
                                 <h4 className="title mb-4">Leadership</h4>
+                                <p className="mx-auto text-muted">
+                                    Here is a short bio of the people behind <span className="text-primary fw-bold">Dime.Scheduler</span>.
+                                </p>
                             </div>
                         </Col>
                     </Row>
@@ -45,7 +50,7 @@ export default class TeamMembers extends Component {
                                         <img src={members.img} className="img-fluid" alt="" />
                                         <ul className="list-unstyled social-icon team-icon mb-0 mt-4">
                                             <li className="list-inline-item ms-1">
-                                                <a href={members.linkedin} className="rounded">
+                                                <a href={members.linkedin} target="_blank" rel="noreferrer" className="rounded">
                                                     <i>
                                                         <FeatherIcon
                                                             icon="linkedin"
@@ -61,6 +66,9 @@ export default class TeamMembers extends Component {
                                             <p className="name text-dark">{members.name}</p>
                                         </h5>
                                         <small className="designation text-muted">{members.position}</small>
+                                    </div>
+                                    <div className="card-body py-3 px-4 content">
+                                        <p className="text-muted">{members.description}</p>
                                     </div>
                                 </div>
                             </Col>

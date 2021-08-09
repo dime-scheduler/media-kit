@@ -35,22 +35,6 @@ export default class GeneralGuideLines extends Component {
                                 justified
                                 id="pills-tab"
                                 className="flex-column bg-white rounded shadow p-3 mb-0 sticky-bar">
-                                <NavItem>
-                                    <NavLink
-                                        className={classnames(
-                                            { active: this.state.activeTab === "1" },
-                                            "rounded"
-                                        )}
-                                        onClick={() => {
-                                            this.toggle("1");
-                                        }} >
-                                        <div className="text-start d-flex align-items-center justify-content-between py-1 px-2">
-                                            <h6 className="mb-0"><i className="uil uil-podium me-2 h5"></i> Slogan</h6>
-                                            <i className="uil uil-angle-right-b"></i>
-                                        </div>
-                                    </NavLink>
-                                </NavItem>
-
                                 <NavItem className="mt-2">
                                     <NavLink
                                         className={classnames(
@@ -67,7 +51,21 @@ export default class GeneralGuideLines extends Component {
                                         </div>
                                     </NavLink>
                                 </NavItem>
-
+                                <NavItem>
+                                    <NavLink
+                                        className={classnames(
+                                            { active: this.state.activeTab === "1" },
+                                            "rounded"
+                                        )}
+                                        onClick={() => {
+                                            this.toggle("1");
+                                        }} >
+                                        <div className="text-start d-flex align-items-center justify-content-between py-1 px-2">
+                                            <h6 className="mb-0"><i className="uil uil-podium me-2 h5"></i> Slogan</h6>
+                                            <i className="uil uil-angle-right-b"></i>
+                                        </div>
+                                    </NavLink>
+                                </NavItem>
                                 <NavItem className="mt-2">
                                     <NavLink
                                         className={classnames(
@@ -111,7 +109,7 @@ export default class GeneralGuideLines extends Component {
                                         For all inquiries related to <span className="text-primary fw-bold">Dime.Scheduler</span>, please refer to <span className="fw-bold">hello@dimescheduler.com</span>.
                                     </p>
                                     <p className="text-muted mb-2">
-                                        For free demos, choose an available timeslot on <a href="www.dimescheduler.com"><span className="fw-bold">www.dimescheduler.com</span></a>.
+                                        For free demos, choose an available timeslot on <a href="www.dimescheduler.com" target="_blank"><span className="fw-bold">www.dimescheduler.com</span></a>.
                                     </p>
                                 </TabPane>
                             </TabContent>

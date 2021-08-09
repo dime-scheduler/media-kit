@@ -15,10 +15,10 @@ class Footer extends Component {
     this.state = {
       grid1: [
         { title: "Dime.Scheduler", link: "https://dimescheduler.com" },
-        { title: "Docs", link: "https://docs.dimescheduler.com" }
+        { title: "Docs", link: "https://docs.dimescheduler.com" },
+        { title: "Intro", link: "https://intro.dimescheduler.com" }
       ],
       grid2: [
-        { title: "Intro", link: "https://intro.dimescheduler.com" },
         { title: "Follow us on LinkedIn", link: "https://www.linkedin.com/company/dimenics" }
       ],
     };
@@ -48,7 +48,7 @@ class Footer extends Component {
                 </p>
                 <ul className={this.props.isLight ? "list-unstyled social-icon social mb-0 m t-4" : "list-unstyled social-icon foot-social-icon mb-0 mt-4"}>
                   <li className="list-inline-item me-1">
-                    <a href="https://www.linkedin.com/company/dimenics" className="rounded">
+                    <a href="https://www.linkedin.com/company/dimenics" target="_blank" rel="noreferrer" className="rounded">
                       <FeatherIcon
                         icon="linkedin"
                         className="fea icon-sm fea-social"
@@ -56,7 +56,7 @@ class Footer extends Component {
                     </a>
                   </li>
                   <li className="list-inline-item me-1">
-                    <a href="https://www.youtube.com/user/DimenicsTV" className="rounded">
+                    <a href="https://www.youtube.com/user/DimenicsTV" target="_blank" rel="noreferrer" className="rounded">
                       <FeatherIcon
                         icon="youtube"
                         className="fea icon-sm fea-social"
@@ -64,7 +64,7 @@ class Footer extends Component {
                     </a>
                   </li>
                   <li className="list-inline-item me-1">
-                    <a href="https://www.facebook.com/Dime-352837688099832/" className="rounded">
+                    <a href="https://www.facebook.com/Dime-352837688099832/" target="_blank" rel="noreferrer" className="rounded">
                       <FeatherIcon
                         icon="facebook"
                         className="fea icon-sm fea-social"
@@ -72,7 +72,7 @@ class Footer extends Component {
                     </a>
                   </li>
                   <li className="list-inline-item me-1">
-                    <a href="https://twitter.com/Dimenics" className="rounded">
+                    <a href="https://twitter.com/Dimenics" target="_blank" rel="noreferrer" className="rounded">
                       <FeatherIcon
                         icon="twitter"
                         className="fea icon-sm fea-social"
@@ -96,13 +96,15 @@ class Footer extends Component {
                       : "text-light footer-head"
                   }
                 >
-                  Company
+                  Dime.Scheduler
                 </h5>
                 <ul className="list-unstyled footer-list mt-4">
                   {this.state.grid1.map((grid, key) => (
                     <li key={key}>
                       <a
                         href={grid.link}
+                        target="_blank"
+                        rel="noreferrer"
                         className={
                           this.props.isLight ? "text-muted" : "text-foot"
                         }
@@ -136,6 +138,8 @@ class Footer extends Component {
                     <li key={key}>
                       <a
                         href={grid.link}
+                        target="_blank"
+                        rel="noreferrer"
                         className={
                           this.props.isLight ? "text-muted" : "text-foot"
                         }
@@ -146,24 +150,6 @@ class Footer extends Component {
                     </li>
                   ))}
                 </ul>
-              </Col>
-
-              <Col
-                lg="3"
-                md="4"
-                xs="12"
-                className="mt-4 mt-sm-0 pt-2 pt-sm-0"
-                name="footercolumn"
-              >
-                <h5
-                  className={
-                    this.props.isLight
-                      ? "text-dark footer-head"
-                      : "text-light footer-head"
-                  }
-                >
-                  Newsletter
-                </h5>
               </Col>
             </Row>
           </Container>

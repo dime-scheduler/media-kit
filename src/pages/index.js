@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-
-import 'react-image-lightbox/style.css';
-
 import Start from "../components/Home/start";
 import GeneralGuidelines from "../components/Home/general-guidelines";
 import Leadership from "../components/Home/leadership";
@@ -10,18 +7,7 @@ import Resources from "../components/Home/resources";
 import StyleGuidelines from "../components/Home/style-guidelines";
 import ProductImages from "../components/Home/product-images";
 
-class HelpCenterOverview extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      pathItems: [
-        //id must required
-        { id: 1, name: "Dime.Scheduler", link: "/index" },
-        { id: 2, name: "Help Center", link: "#" },
-        { id: 3, name: "Overview" }]
-    };
-  }
-
+class DimeSchedulerMediaKit extends Component {
   componentDidMount() {
     window.addEventListener("scroll", this.scrollNavigation, true);
   }
@@ -44,7 +30,6 @@ class HelpCenterOverview extends Component {
   render() {
     return (
       <React.Fragment>
-
         <section className="section">
           <Start />
           <GeneralGuidelines />
@@ -54,10 +39,9 @@ class HelpCenterOverview extends Component {
           <ProductImages />
           <Leadership />
         </section>
-
       </React.Fragment >
     );
   }
 }
 
-export default HelpCenterOverview;
+export default DimeSchedulerMediaKit;

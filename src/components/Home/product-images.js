@@ -2,35 +2,36 @@ import React, { Component } from "react";
 import { Container, Row, Col, Card, CardBody } from 'reactstrap';
 import Lightbox from 'react-image-lightbox';
 import { Link } from "react-router-dom";
+import 'react-image-lightbox/style.css';
 
-import work1 from '../../assets/images/work/dimescheduler-1.png';
-import work2 from '../../assets/images/work/dimescheduler-2.png';
-import work3 from '../../assets/images/work/dimescheduler-3.png';
-import work4 from '../../assets/images/work/dimescheduler-4.png';
-import work5 from '../../assets/images/work/dimescheduler-5.png';
-import work6 from '../../assets/images/work/dimescheduler-6.png';
-import work7 from '../../assets/images/work/dimescheduler-manufacturing-1.png';
-import work8 from '../../assets/images/work/dimescheduler-manufacturing-2.png';
-import work9 from '../../assets/images/work/dimescheduler-manufacturing-3.png';
-import work10 from '../../assets/images/work/dimescheduler-manufacturing-4.png';
+import ss1 from '../../assets/images/work/dimescheduler-1.png';
+import ss2 from '../../assets/images/work/dimescheduler-2.png';
+import ss3 from '../../assets/images/work/dimescheduler-3.png';
+import ss4 from '../../assets/images/work/dimescheduler-4.png';
+import ss5 from '../../assets/images/work/dimescheduler-5.png';
+import ss6 from '../../assets/images/work/dimescheduler-6.png';
+import ss7 from '../../assets/images/work/dimescheduler-manufacturing-1.png';
+import ss8 from '../../assets/images/work/dimescheduler-manufacturing-2.png';
+import ss9 from '../../assets/images/work/dimescheduler-manufacturing-3.png';
+import ss10 from '../../assets/images/work/dimescheduler-manufacturing-4.png';
 
-const images = [work1, work2, work3, work4, work5, work6, work7, work8, work9, work10];
+const images = [ss1, ss2, ss3, ss4, ss5, ss6, ss7, ss8, ss9, ss10];
 
 class ProductImages extends Component {
     constructor(props) {
         super(props);
         this.state = {
             works: [
-                { image: work1, title: "Dime.Scheduler", category: "All" },
-                { image: work2, title: "Dime.Scheduler", category: "All" },
-                { image: work3, title: "Dime.Scheduler", category: "All" },
-                { image: work4, title: "Dime.Scheduler", category: "All" },
-                { image: work5, title: "Dime.Scheduler", category: "All" },
-                { image: work6, title: "Dime.Scheduler", category: "All" },
-                { image: work7, title: "Dime.Scheduler", category: "Manufacturing" },
-                { image: work8, title: "Dime.Scheduler", category: "Manufacturing" },
-                { image: work9, title: "Dime.Scheduler", category: "Manufacturing" },
-                { image: work10, title: "Dime.Scheduler", category: "Manufacturing" }
+                { image: ss1, title: "Schedule resources and jobs through the map", category: "All" },
+                { image: ss2, title: "Plan projects with the Gantt chart", category: "All" },
+                { image: ss3, title: "Resource and project planning in one single view", category: "All" },
+                { image: ss4, title: "Discover bottlenecks with the capacity reporting pivot grid", category: "All" },
+                { image: ss5, title: "Find the right resource for the job with smart resource filtering", category: "All" },
+                { image: ss6, title: "Personalize Dime.Scheduler just the way you like it", category: "All" },
+                { image: ss7, title: "Scheduling manufacturing orders", category: "Manufacturing" },
+                { image: ss8, title: "Look for appropriate work and machine centers", category: "Manufacturing" },
+                { image: ss9, title: "Optimize the occupancy of the machine and work centers", category: "Manufacturing" },
+                { image: ss10, title: "Optimize the schedule of resources through the capacity reporting grid", category: "Manufacturing" }
             ],
             displayCategory: "All",
             photoIndex: 0,
@@ -42,20 +43,20 @@ class ProductImages extends Component {
 
     setCategory(category) {
         this.setState({
-          displayCategory: category
+            displayCategory: category
         });
-      }
+    }
 
     render() {
         const { photoIndex, isOpen } = this.state;
-        
+
         return <Container className="mt-60 mt-60">
             <Row className="justify-content-center">
                 <Col xs={12}>
                     <div className="section-title text-center mb-4 pb-2">
                         <h4 className="mb-4">Product images</h4>
                         <p className="para-desc mx-auto text-muted">
-                            Screenshots of <span className="text-primary fw-bold">Dime.Scheduler</span>.
+                            Here is a set of screenshots which you may use to promote <span className="text-primary fw-bold">Dime.Scheduler</span>.
                         </p>
                     </div>
                 </Col>
