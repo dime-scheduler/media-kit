@@ -39,6 +39,7 @@ const StyleGuidelines = () => (
                         <ul className="text-muted mb-0">
                             <li>Logo: <a href="https://www.dafont.com/birdman.font" target="_blank" rel="noreferrer">Birdman Regular</a></li>
                         </ul>
+                        <br />
                     </div>
                 </div>
             </Col>
