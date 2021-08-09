@@ -19,7 +19,8 @@ class Footer extends Component {
         { title: "Intro", link: "https://intro.dimescheduler.com" }
       ],
       grid2: [
-        { title: "Follow us on LinkedIn", link: "https://www.linkedin.com/company/dimenics" }
+        { title: "Follow us on LinkedIn", link: "https://www.linkedin.com/company/dimenics" },
+        { title: "DimenicsTV", link: "https://www.youtube.com/user/DimenicsTV" }
       ],
     };
   }
@@ -131,7 +132,7 @@ class Footer extends Component {
                       : "text-light footer-head"
                   }
                 >
-                  Useful Links
+                  Social Media
                 </h5>
                 <ul className="list-unstyled footer-list mt-4">
                   {this.state.grid2.map((grid, key) => (

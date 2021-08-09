@@ -6,7 +6,7 @@ export default class GeneralGuideLines extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeTab: "1",
+            activeTab: "2",
         };
         this.toggle = this.toggle.bind(this);
     }

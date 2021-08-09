@@ -37,8 +37,7 @@ const StyleGuidelines = () => (
                             <p className="text-dark">Fonts</p>
                         </h5>
                         <ul className="text-muted mb-0">
-                            <li>Default font: Segoe UI</li>
-                            <li>Logo font: <a href="https://www.dafont.com/birdman.font" target="_blank" rel="noreferrer">Birdman Regular</a></li>
+                            <li>Logo: <a href="https://www.dafont.com/birdman.font" target="_blank" rel="noreferrer">Birdman Regular</a></li>
                         </ul>
                     </div>
                 </div>
