@@ -12,8 +12,6 @@
 
 Install packages by running `yarn` in the this directory.
 
-Running the website locally
-
 To run the application, run `yarn start`. This will start a web server on a localhost port, by default port 3000.
 
 ## Scripts
