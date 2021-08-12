@@ -124,12 +124,12 @@ class Topbar extends Component {
           <Container>
             <div>
               {this.props.hasDarkTopBar ? (
-                <a className="logo" href="#">
+                <a className="logo" href="/#">
                   <img src={logodark} height="24" className="logo-light-mode" alt="" />
                   <img src={logolight} height="24" className="logo-dark-mode" alt="" />
                 </a>
               ) :
-                <a className="logo" href="#">
+                <a className="logo" href="/#">
                   <span className="logo-light-mode">
                     <img src={logodark} className="l-dark" height="24" alt="" />
                     <img src={logolight} className="l-light" height="24" alt="" />
