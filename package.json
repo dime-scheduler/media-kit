@@ -1,5 +1,6 @@
 {
   "name": "ds-media-kit",
+  "version": "1.0.0",
   "displayName": "Dime.Scheduler Media Kit",
   "homepage": "http://mediakit.dimescheduler.com",
   "license": "MIT",
