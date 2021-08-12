@@ -2,9 +2,10 @@ import React, { Component, Suspense } from "react";
 import { withRouter } from "react-router-dom";
 import ScrollUpButton from "react-scroll-up-button";
 import FeatherIcon from "feather-icons-react";
+import { Footer } from "@dimescheduler/ds-website-layout";
+import { col1, col2 } from "../../data/footer";
 
 const Topbar = React.lazy(() => import("./Topbar"));
-const Footer = React.lazy(() => import("./Footer"));
 
 const CustomDot = () => {
   return (
@@ -26,6 +27,7 @@ const Loader = () => {
     </div>
   );
 };
+
 class Layout extends Component {
   render() {
     return (
@@ -34,7 +36,8 @@ class Layout extends Component {
           <Topbar hasDarkTopBar={this.props.hasDarkTopBar} />
 
           {this.props.children}
-          <Footer isLight={true} />
+
+          <Footer isLight={true} col1={col1} col2={col2} />
 
           <ScrollUpButton
             ContainerClassName="classForContainer"
