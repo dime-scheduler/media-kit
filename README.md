@@ -1,6 +1,7 @@
 <p align="center"><img src="assets/ds.png?raw=true" alt="DS Logo" height="50px"></p>
 
 <p align="center">
+<img src="https://github.com/dime-scheduler/media-kit/actions/workflows/build.yml/badge.svg" />
 <img src="https://img.shields.io/website?url=https%3A%2F%2Fmediakit.dimescheduler.com" />
 <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" />
  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
