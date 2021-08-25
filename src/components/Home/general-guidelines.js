@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Row, Col, NavItem, TabContent, TabPane, NavLink, Nav } from 'reactstrap'
 import classnames from "classnames";
+import { HiCheck, HiOutlineX } from "react-icons/hi";
 
 export default class GeneralGuideLines extends Component {
     constructor(props) {
@@ -102,6 +103,14 @@ export default class GeneralGuideLines extends Component {
                                         the Microsoft Dynamics product suite. Therefore, refrain from using 'Dime' when referring to
                                         <span className="text-primary fw-bold"> Dime.Scheduler</span>.
                                     </p>
+                                    <p className="text-muted mb-2">
+                                        <ul>
+                                            <li><HiOutlineX style={{ color: "red" }} /> Dime</li>
+                                            <li><HiOutlineX style={{ color: "red" }} /> DIME</li>
+                                            <li><HiOutlineX style={{ color: "red" }} /> The Dime Scheduler</li>
+                                            <li><HiCheck style={{ color: "green" }} /> Dime.Scheduler</li>
+                                        </ul>
+                                    </p>
                                 </TabPane>
 
                                 <TabPane tabId="3" className="p-4 rounded shadow" id="security" role="tabpanel" aria-labelledby="crm">
@@ -116,7 +125,7 @@ export default class GeneralGuideLines extends Component {
                         </Col>
                     </Row>
                 </Container>
-            </React.Fragment>
+            </React.Fragment >
         )
     }
 }

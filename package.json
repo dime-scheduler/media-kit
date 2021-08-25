@@ -13,6 +13,7 @@
     "url": "https://www.dimescheduler.com"
   },
   "dependencies": {
+    "@dimescheduler/ds-website-layout": "0.0.1-alpha.2",
     "@iconscout/react-unicons": "^1.1.6",
     "aos": "^2.3.4",
     "availity-reactstrap-validation": "^2.7.1",
@@ -31,6 +32,7 @@
     "react-fade-in": "^2.0.1",
     "react-flatpickr": "^3.10.7",
     "react-ga": "^3.3.0",
+    "react-icons": "^4.2.0",
     "react-image-lightbox": "^5.1.1",
     "react-modal-video": "^1.2.6",
     "react-parallax": "^3.3.0",
@@ -44,8 +46,7 @@
     "react-typist": "^2.0.5",
     "reactstrap": "^8.9.0",
     "slick-carousel": "^1.8.1",
-    "webpack": "4.44.0",
-    "@dimescheduler/ds-website-layout": "0.0.1-alpha.2"
+    "webpack": "4.44.0"
   },
   "scripts": {
     "start": "react-scripts start",
