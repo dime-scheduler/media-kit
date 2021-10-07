@@ -107,6 +107,7 @@ export default class GeneralGuideLines extends Component {
                                         <ul>
                                             <li><HiOutlineX style={{ color: "red" }} /> Dime</li>
                                             <li><HiOutlineX style={{ color: "red" }} /> DIME</li>
+                                            <li><HiOutlineX style={{ color: "red" }} /> Dime Scheduler</li>
                                             <li><HiOutlineX style={{ color: "red" }} /> The Dime Scheduler</li>
                                             <li><HiCheck style={{ color: "green" }} /> Dime.Scheduler</li>
                                         </ul>

@@ -92,7 +92,7 @@ class ProductDescription extends Component {
                                 <Collapse isOpen={this.state.col1}>
                                     <CardBody>
                                         <p className="text-muted mb-0 faq-ans">
-                                            Plan and manage your resources and projects more effectively and accelerate your business by powering up Microsoft Dynamics 365 Business Central  <span className="text-primary fw-bold">Dime.Scheduler</span>.
+                                            Plan and manage your resources and projects more effectively and accelerate your business by powering up Microsoft Dynamics 365 Business Central with <span className="text-primary fw-bold">Dime.Scheduler</span>.
                                         </p>
                                     </CardBody>
                                 </Collapse>
