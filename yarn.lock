@@ -1219,10 +1219,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@dimescheduler/ds-website-layout@0.0.1-alpha.2":
-  version "0.0.1-alpha.2"
-  resolved "https://registry.yarnpkg.com/@dimescheduler/ds-website-layout/-/ds-website-layout-0.0.1-alpha.2.tgz#c3871e72bfbdf0d2eebb27fe6dd56503149c0743"
-  integrity sha512-5XyAzyQW1o9hXbj30drblo1SIdK42SMkYPkGfzCDHzfBg4G+qMwSsp271xGdB4chsVyxzurhnHi9Ag/CGPWTkA==
+"@dimescheduler/ds-website-layout@0.0.1-alpha.7":
+  version "0.0.1-alpha.7"
+  resolved "https://registry.yarnpkg.com/@dimescheduler/ds-website-layout/-/ds-website-layout-0.0.1-alpha.7.tgz#f057c4a141dc82ca197f6bfbcb83906dd9e9fc88"
+  integrity sha512-RDjXPszBNP8YdsbaKznLSbqXhOeZeNKS0e4dXEiE3XBsKrN57rnOATPauDriHzyZKM8fi1aPRQO7j0HUV7hzvA==
   dependencies:
     "@iconscout/react-unicons" "^1.1.6"
     aos "^2.3.4"

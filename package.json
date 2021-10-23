@@ -13,7 +13,7 @@
     "url": "https://www.dimescheduler.com"
   },
   "dependencies": {
-    "@dimescheduler/ds-website-layout": "0.0.1-alpha.2",
+    "@dimescheduler/ds-website-layout": "0.0.1-alpha.7",
     "@iconscout/react-unicons": "^1.1.6",
     "aos": "^2.3.4",
     "availity-reactstrap-validation": "^2.7.1",
