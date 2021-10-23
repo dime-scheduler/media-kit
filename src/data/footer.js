@@ -7,8 +7,10 @@ const col1 = [
 ];
 
 const col2 = [
-    { title: "Follow us on LinkedIn", link: "https://www.linkedin.com/company/dimenics" },
-    { title: "DimenicsTV", link: "https://www.youtube.com/user/DimenicsTV" }
+    { title: "LinkedIn", link: "https://www.linkedin.com/company/dimesoftware" },
+    { title: "Youtube", link: "https://www.youtube.com/channel/UCYD4LGox7SJLL7r8gmjulNA" },
+    { title: "Twitter", link: "https://twitter.com/dimesoftware" },
+    { title: "Facebook", link: "https://www.facebook.com/dimesoftware" }
 ];
 
 export {

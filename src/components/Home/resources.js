@@ -17,11 +17,13 @@ const Resources = () => (
                             <div className="content">
                                 <ul>
                                     <li> <a href="https://www.dimescheduler.com" target="_blank" rel="noreferrer">Product page</a></li>
-                                    <li> <a href="https://www.youtube.com/user/DimenicsTV" target="_blank" rel="noreferrer">Webinars, animation videos</a></li>
+                                    <li> <a href="https://www.youtube.com/channel/UCYD4LGox7SJLL7r8gmjulNA" target="_blank" rel="noreferrer">Webinars, animation videos</a></li>
                                     <li> <a href="https://docs.dimescheduler.com" target="_blank" rel="noreferrer">Documentation</a></li>
                                     <li> <a href="https://intro.dimescheduler.com" target="_blank" rel="noreferrer">Slide deck</a></li>
                                     <li> <a href="https://www.dimescheduler.com/assets/brochure.pdf" target="_blank" rel="noreferrer">Brochure</a></li>
-                                    <li> <a href="https://www.linkedin.com/company/dimenics" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                                    <li> <a href="https://www.linkedin.com/company/dimesoftware" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                                    <li> <a href="https://twitter.com/dimesoftware" target="_blank" rel="noreferrer">Twitter</a></li>
+                                    <li> <a href="https://www.facebook.com/dimesoftware" target="_blank" rel="noreferrer">Facebook</a></li>
                                 </ul>
                             </div>
                         </div>
