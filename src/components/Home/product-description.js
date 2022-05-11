@@ -128,9 +128,10 @@ class ProductDescription extends Component {
                                 <Collapse isOpen={this.state.col2}>
                                     <CardBody>
                                         <p className="text-muted mb-0 faq-ans">
-                                            Supercharge your business by powering up Microsoft Dynamics 365 Business Central with a centralized
-                                            resource and project planning solution. <span className="text-primary fw-bold">Dime.Scheduler</span>, with its powerful features and flexible design, has
-                                            a proven track record in various industries and is trusted by dozens of resellers and thousands of people
+                                            Supercharge your business by powering up Microsoft Dynamics 365 Business
+                                            Central with a centralized resource and project-planning solution. With its
+                                            powerful features and flexible design, <span className="text-primary fw-bold">Dime.Scheduler</span> has a proven track record
+                                            in various industries and is trusted by dozens of resellers and thousands of people
                                             all over the world.
                                         </p>
                                     </CardBody>
@@ -167,19 +168,18 @@ class ProductDescription extends Component {
                                 <Collapse isOpen={this.state.col3}>
                                     <CardBody>
                                         <p className="text-muted mb-4 faq-ans">
-                                            Wasted time and money due to inefficient and ineffective scheduling is lamentable. With powerful and
-                                            integrated tools such as <span className="text-primary fw-bold">Dime.Scheduler</span>, business planning can turn a chore into a catalyst for growth of
-                                            your organization. <span className="text-primary fw-bold">Dime.Scheduler</span> is a comprehensive and easy to use resource and project planning
-                                            solution for the Microsoft Dynamics product suite and has a proven track record in various industries and
-                                            is trusted by dozens of resellers and thousands of people all over the world.
+                                            Wasted time and money due to inefficient and ineffective scheduling is lamentable.
+                                            Fortunately, with powerful and integrated tools such as <span className="text-primary fw-bold">Dime.Scheduler</span>, business planning can turn a chore into a catalyst for
+                                            organizational growth.
                                         </p>
                                         <p className="text-muted mb-4 faq-ans">
-
-                                            With <span className="text-primary fw-bold">Dime.Scheduler</span> and its many powerful capabilities and flexible design, you get a real-time overview
-                                            of the work that needs to be done and you can create a schedule for your workforce accordingly, all of
-                                            which is seamlessly processed by the other workflows you may have in place in the organization. All of
-                                            this results in fewer errors, a higher occupancy rate, higher output, happier workforce, which in turn will
-                                            save you time and money.
+                                            <span className="text-primary fw-bold">Dime.Scheduler</span> is a comprehensive and easy-to-use resource and project planning solution for the Microsoft Dynamics product suite. It has a proven track
+                                            record in various industries and is trusted by dozens of resellers and thousands of
+                                            people all over the world. With its many powerful capabilities and flexible design, <span className="text-primary fw-bold">Dime.Scheduler</span> provides a real-time overview of the work that needs to be done.
+                                            You can even create a schedule for your workforce accordingly, all of which is
+                                            seamlessly processed by other organizational workflows that you may have in
+                                            place. This results in fewer errors, increased output, a higher occupancy rate, and
+                                            a happier workforce, which, in turn, will save you time and money.
                                         </p>
                                     </CardBody>
                                 </Collapse>

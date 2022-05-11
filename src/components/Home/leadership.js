@@ -15,7 +15,7 @@ export default class TeamMembers extends Component {
                     name: "Tom Taffin",
                     position: "Managing Partner",
                     linkedin: "https://be.linkedin.com/in/tomtaffin",
-                    description: "Tom is managing partner at Dime Software and is the founder of Dime.Scheduler. With more than a decade of experience in the Microsoft Dynamics product suite, Tom is an authority in the field with a proven track record in building solutions for complex business environments."
+                    description: "Tom is Managing Partner at Dime Software and is the Founder of Dime.Scheduler. With more than a decade of experience in  the Microsoft Dynamics product suite, Tom is an authority in the field with a proven track record in building solutions for complex business environments."
                 },
                 {
                     id: 2,
@@ -23,7 +23,7 @@ export default class TeamMembers extends Component {
                     name: "Hendrik Bulens",
                     position: "Managing Partner",
                     linkedin: "https://www.linkedin.com/in/hendrikbulens",
-                    description: "Hendrik is managing partner at Dime Software and leads the Dime.Scheduler product team. His many years of experience as a consultant and passion for business and technology have helped shape Dime.Scheduler to what it is today and where it is headed."
+                    description: "Hendrik is Managing Partner at Dime Software and leads the Dime.Scheduler product team. His many years of experience as a consultant and passion for business and technology have helped shape Dime.Scheduler into what it is today and define where it is headed."
                 }
             ],
         };
