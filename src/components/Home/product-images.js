@@ -15,7 +15,17 @@ import ss8 from '../../assets/images/work/dimescheduler-manufacturing-2.png';
 import ss9 from '../../assets/images/work/dimescheduler-manufacturing-3.png';
 import ss10 from '../../assets/images/work/dimescheduler-manufacturing-4.png';
 
-const images = [ss1, ss2, ss3, ss4, ss5, ss6, ss7, ss8, ss9, ss10];
+import ss11 from '../../assets/images/work/ds-screen-logistics-1.png';
+import ss12 from '../../assets/images/work/ds-screen-logistics-2.png';
+import ss13 from '../../assets/images/work/ds-screen-logistics-3.png';
+import ss14 from '../../assets/images/work/ds-screen-logistics-4.png';
+import ss15 from '../../assets/images/work/ds-screen-logistics-5.png';
+
+const allImages = [
+    { cat: "None", coll: [ss1, ss2, ss3, ss4, ss5, ss6] },
+    { cat: "Manufacturing", coll: [ss7, ss8, ss9, ss10, ss11, ss12, ss13, ss14, ss15] },
+    { cat: "Transportation", coll: [ss11, ss12, ss13, ss14, ss15] }
+];
 
 class ProductImages extends Component {
     constructor(props) {
@@ -28,10 +38,17 @@ class ProductImages extends Component {
                 { image: ss4, title: "Discover bottlenecks with the capacity reporting pivot grid", category: "All" },
                 { image: ss5, title: "Find the right resource for the job with smart resource filtering", category: "All" },
                 { image: ss6, title: "Personalize Dime.Scheduler just the way you like it", category: "All" },
+
                 { image: ss7, title: "Scheduling manufacturing orders", category: "Manufacturing" },
                 { image: ss8, title: "Look for appropriate work and machine centers", category: "Manufacturing" },
                 { image: ss9, title: "Optimize the occupancy of the machine and work centers", category: "Manufacturing" },
-                { image: ss10, title: "Optimize the schedule of resources through the capacity reporting grid", category: "Manufacturing" }
+                { image: ss10, title: "Optimize the schedule of resources through the capacity reporting grid", category: "Manufacturing" },
+
+                { image: ss11, title: "Create trips", category: "Transportation" },
+                { image: ss12, title: "Create trips", category: "Transportation" },
+                { image: ss13, title: "Create trips", category: "Transportation" },
+                { image: ss14, title: "Create trips", category: "Transportation" },
+                { image: ss15, title: "Create trips", category: "Transportation" }
             ],
             displayCategory: "All",
             photoIndex: 0,
@@ -41,6 +58,10 @@ class ProductImages extends Component {
         this.setCategory.bind(this);
     }
 
+    getVisibleImages = () => this.state.displayCategory === "All"
+        ? allImages.map(x => x.coll).flat()
+        : allImages.filter(x => x.cat === this.state.displayCategory).map(x => x.coll).flat();
+
     setCategory(category) {
         this.setState({
             displayCategory: category
@@ -49,6 +70,7 @@ class ProductImages extends Component {
 
     render() {
         const { photoIndex, isOpen } = this.state;
+        const images = this.getVisibleImages();
 
         return <Container className="mt-60 mt-60">
             <Row className="justify-content-center">
@@ -69,6 +91,7 @@ class ProductImages extends Component {
                             <ul className="container-filter list-inline mb-0 filter-options text-center" id="filter">
                                 <li onClick={() => this.setCategory("All")} className={this.state.displayCategory === "All" ? "list-inline-item categories-name border text-dark rounded active" : "list-inline-item categories-name border text-dark rounded"}>All</li>{' '}
                                 <li onClick={() => this.setCategory("Manufacturing")} className={this.state.displayCategory === "Manufacturing" ? "list-inline-item categories-name border text-dark rounded active" : "list-inline-item categories-name border text-dark rounded"}>Manufacturing</li>{' '}
+                                <li onClick={() => this.setCategory("Transportation")} className={this.state.displayCategory === "Transportation" ? "list-inline-item categories-name border text-dark rounded active" : "list-inline-item categories-name border text-dark rounded"}>Transportation</li>{' '}
                             </ul>
                         </div>
                     </div>
