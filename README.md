@@ -1,3 +1,11 @@
+<h1 align="center">DEPRECATED</h1>
+
+<div align="center">
+
+<b>🚧 🚧 🚧<br />This repo is no longer maintained. Check the repo of the second generation of Dime.Scheduler's website for the new media kit. <br />🚧🚧🚧
+</b> 
+</p>
+
 <p align="center"><img src="assets/ds.png?raw=true" alt="DS Logo" height="50px"></p>
 
 <p align="center">
